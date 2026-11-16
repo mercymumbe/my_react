@@ -1,11 +1,13 @@
 
-import MovieCard from '../Components/MovieCard'
+import Movie from '../Components/Movie'
 import Navbar from '../Components/Navbar'
 
 function Products() {
   return (
    <>
-   <Navbar/>
+   <div>
+<Navbar/>
+
    <div className="min-h-screen bg-gray-950 text-white px-6 py-12">
 
       <div className="max-w-6xl mx-auto text-center">
@@ -20,8 +22,10 @@ function Products() {
         </p>
 
       </div>
-
+<Movie/>
     </div>
+    
+   </div>
    </>
   )
 }
