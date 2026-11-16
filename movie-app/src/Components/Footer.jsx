@@ -12,7 +12,7 @@ function Footer() {
       {/* Logo and Description */}
       <div>
         <h2 className="text-3xl font-extrabold text-yellow-500 mb-4">
-          Movie<span className="text-white">List</span>
+          Movie<span className="text-white">-App</span>
         </h2>
 
         <p className="text-gray-400 leading-relaxed text-sm">
@@ -66,7 +66,7 @@ function Footer() {
 
         <a
           href="mailto:info@movielist.com"
-          className="text-yellow-500 hover:text-yellow-400 text-sm transition"
+          className="text-white-500 hover:text-yellow-400 text-sm transition"
         >
           info@movielist.com
         </a>
