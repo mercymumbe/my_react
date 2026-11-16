@@ -16,7 +16,7 @@ Movie-App is a simple movie discovery application that allows users to explore m
 - Tailwind CSS
 - Vite
 ## Project Structure
-![image of project structure]()
+![image of project structure](movie-app/public/Screenshot_projectstructure.png)
 
 ## Setup Instructions
 
@@ -41,7 +41,9 @@ Click Save.
 Wait a few minutes for the website to be published.
 
 ## Screenshots
-
+![image of home page](movie-app/public/Screenshot_homepage.png)
+![image of about page](movie-app/public/Screenshot_aboutpage.png)
+![image of products page](movie-app/public/Screenshot_productspage.png)
 
 ## Author
 Mercy Mutua Zindua
