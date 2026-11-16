@@ -1,16 +1,47 @@
-# React + Vite
+# Movie-App
+**link**
+## Overview of the project
+Movie-App is a simple movie discovery application that allows users to explore movies from different categories and find something interesting to watch.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Browse different movie categories.
+- Explore movies from different genres.
+- View movie details.
+- Responsive design.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js
+- JavaScript
+- Tailwind CSS
+- Vite
+## Project Structure
+![image of project structure]()
 
-## React Compiler
+## Setup Instructions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Run it on your computer
+Clone the repository.
+https://github.com/mercymumbe/my_react.git
 
-## Expanding the ESLint configuration
+Go into the project folder.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Search for my_react
+
+Open index.html in your browser (Chrome, Firefox or Safari).
+
+You can also right-click index.html in VS Code and choose Open with Live Server.
+
+## Deploy to GitHub Pages
+
+Push the project to a GitHub repository.
+In the repository, go to Settings → Pages.
+Under Branch, choose main and the / (root) folder.
+Click Save.
+Wait a few minutes for the website to be published.
+
+## Screenshots
+
+
+## Author
+Mercy Mutua Zindua
