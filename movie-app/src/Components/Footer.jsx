@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function Footer() {
   return (
@@ -72,8 +73,8 @@ function Footer() {
         </a>
 
         <div className="flex gap-4 mt-5">
-          <a href="#" aria-label="Facebook" className="hover:text-yellow-500 transition">Facebook</a>
-          <a href="#" aria-label="Instagram" className="hover:text-yellow-500 transition">Instagram</a>
+          <Link to="#" aria-label="Facebook" className="hover:text-yellow-500 transition">Facebook</Link>
+          <Link to="#" aria-label="Instagram" className="hover:text-yellow-500 transition">Instagram</Link>
         </div>
       </div>
 
