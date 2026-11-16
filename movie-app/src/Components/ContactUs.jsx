@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function ContactUs() {
     return (
         <>
@@ -7,28 +9,44 @@ function ContactUs() {
 
                     {/* Page Heading */}
                     <div className=" mb-14">
-                        <span className="text-yellow-500 uppercase tracking-widest font-semibold text-sm">
+                        <span className="text-yellow-500 text-4xl md:text-5xl font-extrabold text-white mt-4">
                             Get In Touch
                         </span>
 
-                        <h1 className="text-4xl md:text-5xl font-extrabold text-white mt-4">
+                        <h1 className="text-4xl md:text-5xl font-bold text-white mt-4">
                             Contact Us
                         </h1>
-
-                        <p className="text-gray-400 mt-4 max-w-xl mx-auto">
-                            Have questions, feedback or movie recommendations?
-                        </p>
                     </div>
 
                     {/* Contact Content */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <div className="grid grid-cols-1  gap-10">
+                        <div className="flex flex-col gap-4 text-gray-300">
 
-                        
+                            <p className="flex flex-col sm:flex-row sm:gap-2">
+                                <strong className="text-white">Phone Number:</strong>
+                                <a
+                                    href="tel:+254700999122"
+                                    className="text-yellow-500 hover:text-yellow-400 transition duration-300"
+                                >
+                                    0700999122
+                                </a>
+                            </p>
+
+                            <p className="flex flex-col sm:flex-row sm:gap-2">
+                                <strong className="text-white">Email:</strong>
+                                <Link to="mailto:info@movieapp.com" className="text-yellow-500 hover:text-yellow-400 transition duration-300" >info@movieapp.com
+                                </Link>
+                            </p>
+
+                            <p className="flex flex-col sm:flex-row sm:gap-2"><strong className="text-white">Location:</strong><span>Nairobi, Kenya</span>
+                            </p>
+
+                        </div>
+
                         {/* Contact Form */}
                         <div className="bg-gray-900 p-8 rounded-2xl">
 
-                            <h2 className="text-2xl font-bold text-white mb-6">
-                                Send Us a Message
+                            <h2 className="text-2xl font-bold text-white mb-6">Send Us a Message
                             </h2>
 
                             <form className="space-y-5">
