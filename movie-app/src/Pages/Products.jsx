@@ -1,4 +1,5 @@
 
+import MovieCard from '../Components/MovieCard'
 import Navbar from '../Components/Navbar'
 
 function Products() {
