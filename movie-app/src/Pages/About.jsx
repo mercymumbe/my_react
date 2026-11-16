@@ -1,4 +1,5 @@
 import AboutUs from '../Components/AboutUs'
+import Footer from '../Components/Footer'
 import Navbar from '../Components/Navbar'
 
 function About() {
@@ -6,6 +7,7 @@ function About() {
     <>
     <Navbar/>
     <AboutUs/>
+    <Footer/>
     </>
   )
 }
