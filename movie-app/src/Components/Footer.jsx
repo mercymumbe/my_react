@@ -68,7 +68,7 @@ function Footer() {
           href="mailto:info@movielist.com"
           className="text-white-500 hover:text-yellow-400 text-sm transition"
         >
-          info@movielist.com
+          info@movieapp.com
         </a>
 
         <div className="flex gap-4 mt-5">
