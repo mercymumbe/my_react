@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 function Hero() {
     return (
         <>
@@ -33,19 +33,8 @@ function Hero() {
         </p>
 
         <div className="flex gap-4 mt-8 flex-wrap">
-          <a
-            href="#movies"
-            className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-3 rounded-lg font-semibold transition"
-          >
-            Explore Movies
-          </a>
-
-          <a
-            href="#categories"
-            className="border border-white text-white hover:bg-white hover:text-black px-8 py-3 rounded-lg font-semibold transition"
-          >
-            Browse Categories
-          </a>
+          <Link to="/Products" className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-3 rounded-lg font-semibold transition">Explore Movies
+          </Link>
         </div>
 
       </div>
