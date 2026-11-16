@@ -1,6 +1,6 @@
 # Movie-App
 **link**
-## Overview of the project
+## Overview 
 Movie-App is a simple movie discovery application that allows users to explore movies from different categories and find something interesting to watch.
 
 ## Features
