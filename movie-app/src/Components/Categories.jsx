@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 function Categories() {
   const categories = [
     {
@@ -75,10 +75,7 @@ function Categories() {
 
             <p className="text-gray-400 text-sm mb-5"> {category.description}
             </p>
-            <Link to="/products"><button className="bg-yellow-600 text-white px-5 py-2
-            rounded-lg hover:bg-yellow-700 transition">
-              Explore Movies
-            </button></Link>
+            
 
 
           </div>
