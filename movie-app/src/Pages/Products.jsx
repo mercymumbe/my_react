@@ -1,4 +1,5 @@
 
+import Footer from '../Components/Footer'
 import Movie from '../Components/Movie'
 import Navbar from '../Components/Navbar'
 
@@ -23,8 +24,9 @@ function Products() {
 
       </div>
 <Movie/>
+
     </div>
-    
+    <Footer/>
    </div>
    </>
   )
