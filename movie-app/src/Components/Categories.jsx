@@ -75,10 +75,10 @@ function Categories() {
 
             <p className="text-gray-400 text-sm mb-5"> {category.description}
             </p>
-            <a href="#products"><button className="bg-yellow-600 text-white px-5 py-2
+            <Link to="/products"><button className="bg-yellow-600 text-white px-5 py-2
             rounded-lg hover:bg-yellow-700 transition">
               Explore Movies
-            </button></a>
+            </button></Link>
 
 
           </div>
